@@ -1,0 +1,567 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`boundary AppTest boundary should mount App without crashing 1`] = `
+Array [
+  <HashRouter>
+    <React.Suspense
+      fallback={
+        <div
+          className="pt-3 text-center"
+        >
+          <div
+            className="sk-spinner sk-spinner-pulse"
+          />
+        </div>
+      }
+    >
+      <Switch>
+        <Route
+          name="Home"
+          path="/"
+          render={[Function]}
+        />
+      </Switch>
+    </React.Suspense>
+  </HashRouter>,
+]
+`;
+
+exports[`boundary AppTest boundary should mount ContactUs without crashing 1`] = `
+Array [
+  <React.Fragment>
+    <ContactUsView
+      initialValues={
+        Object {
+          "email": "",
+          "firstName": "",
+          "lastName": "",
+          "message": "",
+          "mobile": "",
+        }
+      }
+      onFormSubmit={[Function]}
+    />
+  </React.Fragment>,
+]
+`;
+
+exports[`boundary AppTest boundary should mount CreateAppointment without crashing 1`] = `
+Array [
+  <React.Fragment>
+    <CreateAppointmentView
+      initialValues={
+        Object {
+          "age": "",
+          "city": "",
+          "country": "",
+          "email": "",
+          "firstName": "",
+          "lastName": "",
+          "mobile": "",
+          "package": "",
+          "physioRequired": "",
+          "pinCode": "",
+          "state": "",
+          "streetName": "",
+          "totalAmount": 0,
+          "trainerPreferences": "",
+          "weeks": 1,
+        }
+      }
+      onFormSubmit={[Function]}
+    />
+  </React.Fragment>,
+]
+`;
+
+exports[`boundary AppTest boundary should mount Dashboard without crashing 1`] = `
+Array [
+  <React.Fragment>
+    <CRow
+      gutters={true}
+      tag="div"
+    >
+      <CCol
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+            "xxl",
+          ]
+        }
+      >
+        <CCard
+          tag="div"
+        >
+          <CCardBody
+            tag="div"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non scelerisque risus. Curabitur euismod, enim non convallis auctor, sem nisi cursus sem, et fermentum mi ex iaculis nunc. Integer et libero orci. Nam vehicula, elit non tempus porta, neque erat semper sapien, at maximus risus tortor ac metus. In ac metus lectus. Vestibulum tincidunt vitae justo a porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi dapibus urna tortor, eu elementum metus luctus et. Phasellus varius gravida tempus. Etiam vulputate iaculis ultricies. Aliquam turpis erat, mollis nec diam ac, ornare euismod nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus quis malesuada arcu, nec viverra lorem. Maecenas eleifend, neque ut ultricies pellentesque, risus diam ultrices neque, ac dapibus lorem felis ut nulla. Nulla facilisi. Mauris at placerat purus. Donec a magna rhoncus, vehicula dui eget, accumsan est. Donec lacus ante, pharetra eu rhoncus non, auctor id turpis. Morbi tincidunt sed urna quis tempus. Nam feugiat fermentum congue. Nullam augue ligula, bibendum at arcu a, tristique gravida dui. Nulla erat nibh, tincidunt eu magna ac, dictum efficitur sem. Suspendisse eros erat, vehicula non finibus nec, tincidunt eget neque.
+          </CCardBody>
+        </CCard>
+      </CCol>
+    </CRow>
+    <CRow
+      gutters={true}
+      tag="div"
+    >
+      <CCol
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+            "xxl",
+          ]
+        }
+      >
+        <CCard
+          tag="div"
+        >
+          <CCardBody
+            style={
+              Object {
+                "margin": "auto",
+              }
+            }
+            tag="div"
+          >
+            <CButton
+              color="danger"
+              shape="pill"
+              style={
+                Object {
+                  "fontSize": 50,
+                  "height": 100,
+                  "width": 600,
+                }
+              }
+              tag="button"
+              type="submit"
+              variant="outline"
+            >
+              Apply for Trainer
+            </CButton>
+             
+          </CCardBody>
+        </CCard>
+      </CCol>
+    </CRow>
+  </React.Fragment>,
+]
+`;
+
+exports[`boundary AppTest boundary should mount ViewAppointment without crashing 1`] = `
+Array [
+  <ViewAppointmentView
+    data={Array []}
+    fields={
+      Array [
+        "S.No.",
+        "Name",
+        "email",
+        "phone",
+        "age",
+        "completeAddress",
+        "trainerPreferences",
+        "physioRequired",
+        "package",
+        "totalAmount",
+      ]
+    }
+  />,
+]
+`;
+
+exports[`boundary AppTestboundarymounts App without crashing 1`] = `
+Array [
+  <HashRouter>
+    <React.Suspense
+      fallback={
+        <div
+          className="pt-3 text-center"
+        >
+          <div
+            className="sk-spinner sk-spinner-pulse"
+          />
+        </div>
+      }
+    >
+      <Switch>
+        <Route
+          name="Home"
+          path="/"
+          render={[Function]}
+        />
+      </Switch>
+    </React.Suspense>
+  </HashRouter>,
+]
+`;
+
+exports[`boundary mounts App without crashing 1`] = `
+Array [
+  <HashRouter>
+    <React.Suspense
+      fallback={
+        <div
+          className="pt-3 text-center"
+        >
+          <div
+            className="sk-spinner sk-spinner-pulse"
+          />
+        </div>
+      }
+    >
+      <Switch>
+        <Route
+          name="Home"
+          path="/"
+          render={[Function]}
+        />
+      </Switch>
+    </React.Suspense>
+  </HashRouter>,
+]
+`;
+
+exports[`boundary mounts ContactUs without crashing 1`] = `
+Array [
+  <React.Fragment>
+    <ContactUsView
+      initialValues={
+        Object {
+          "email": "",
+          "firstName": "",
+          "lastName": "",
+          "message": "",
+          "mobile": "",
+        }
+      }
+      onFormSubmit={[Function]}
+    />
+  </React.Fragment>,
+]
+`;
+
+exports[`boundary mounts CreateAppointment without crashing 1`] = `
+Array [
+  <React.Fragment>
+    <CreateAppointmentView
+      initialValues={
+        Object {
+          "age": "",
+          "city": "",
+          "country": "",
+          "email": "",
+          "firstName": "",
+          "lastName": "",
+          "mobile": "",
+          "package": "",
+          "physioRequired": "",
+          "pinCode": "",
+          "state": "",
+          "streetName": "",
+          "totalAmount": 0,
+          "trainerPreferences": "",
+          "weeks": 1,
+        }
+      }
+      onFormSubmit={[Function]}
+    />
+  </React.Fragment>,
+]
+`;
+
+exports[`boundary mounts DashBoard without crashing 1`] = `
+Array [
+  <React.Fragment>
+    <CRow
+      gutters={true}
+      tag="div"
+    >
+      <CCol
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+            "xxl",
+          ]
+        }
+      >
+        <CCard
+          tag="div"
+        >
+          <CCardBody
+            tag="div"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non scelerisque risus. Curabitur euismod, enim non convallis auctor, sem nisi cursus sem, et fermentum mi ex iaculis nunc. Integer et libero orci. Nam vehicula, elit non tempus porta, neque erat semper sapien, at maximus risus tortor ac metus. In ac metus lectus. Vestibulum tincidunt vitae justo a porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi dapibus urna tortor, eu elementum metus luctus et. Phasellus varius gravida tempus. Etiam vulputate iaculis ultricies. Aliquam turpis erat, mollis nec diam ac, ornare euismod nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus quis malesuada arcu, nec viverra lorem. Maecenas eleifend, neque ut ultricies pellentesque, risus diam ultrices neque, ac dapibus lorem felis ut nulla. Nulla facilisi. Mauris at placerat purus. Donec a magna rhoncus, vehicula dui eget, accumsan est. Donec lacus ante, pharetra eu rhoncus non, auctor id turpis. Morbi tincidunt sed urna quis tempus. Nam feugiat fermentum congue. Nullam augue ligula, bibendum at arcu a, tristique gravida dui. Nulla erat nibh, tincidunt eu magna ac, dictum efficitur sem. Suspendisse eros erat, vehicula non finibus nec, tincidunt eget neque.
+          </CCardBody>
+        </CCard>
+      </CCol>
+    </CRow>
+    <CRow
+      gutters={true}
+      tag="div"
+    >
+      <CCol
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+            "xxl",
+          ]
+        }
+      >
+        <CCard
+          tag="div"
+        >
+          <CCardBody
+            style={
+              Object {
+                "margin": "auto",
+              }
+            }
+            tag="div"
+          >
+            <CButton
+              color="danger"
+              shape="pill"
+              style={
+                Object {
+                  "fontSize": 50,
+                  "height": 100,
+                  "width": 600,
+                }
+              }
+              tag="button"
+              type="submit"
+              variant="outline"
+            >
+              Apply for Trainer
+            </CButton>
+             
+          </CCardBody>
+        </CCard>
+      </CCol>
+    </CRow>
+  </React.Fragment>,
+]
+`;
+
+exports[`boundary mounts ViewAppointment without crashing 1`] = `
+Array [
+  <ViewAppointmentView
+    data={Array []}
+    fields={
+      Array [
+        "S.No.",
+        "Name",
+        "email",
+        "phone",
+        "age",
+        "completeAddress",
+        "trainerPreferences",
+        "physioRequired",
+        "package",
+        "totalAmount",
+      ]
+    }
+  />,
+]
+`;
+
+exports[`mounts App without crashing 1`] = `
+Array [
+  <HashRouter>
+    <React.Suspense
+      fallback={
+        <div
+          className="pt-3 text-center"
+        >
+          <div
+            className="sk-spinner sk-spinner-pulse"
+          />
+        </div>
+      }
+    >
+      <Switch>
+        <Route
+          name="Home"
+          path="/"
+          render={[Function]}
+        />
+      </Switch>
+    </React.Suspense>
+  </HashRouter>,
+]
+`;
+
+exports[`mounts ContactUs without crashing 1`] = `
+Array [
+  <React.Fragment>
+    <ContactUsView
+      initialValues={
+        Object {
+          "email": "",
+          "firstName": "",
+          "lastName": "",
+          "message": "",
+          "mobile": "",
+        }
+      }
+      onFormSubmit={[Function]}
+    />
+  </React.Fragment>,
+]
+`;
+
+exports[`mounts CreateAppointment without crashing 1`] = `
+Array [
+  <React.Fragment>
+    <CreateAppointmentView
+      initialValues={
+        Object {
+          "age": "",
+          "city": "",
+          "country": "",
+          "email": "",
+          "firstName": "",
+          "lastName": "",
+          "mobile": "",
+          "package": "",
+          "physioRequired": "",
+          "pinCode": "",
+          "state": "",
+          "streetName": "",
+          "totalAmount": 0,
+          "trainerPreferences": "",
+          "weeks": 1,
+        }
+      }
+      onFormSubmit={[Function]}
+    />
+  </React.Fragment>,
+]
+`;
+
+exports[`mounts DashBoard without crashing 1`] = `
+Array [
+  <React.Fragment>
+    <CRow
+      gutters={true}
+      tag="div"
+    >
+      <CCol
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+            "xxl",
+          ]
+        }
+      >
+        <CCard
+          tag="div"
+        >
+          <CCardBody
+            tag="div"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non scelerisque risus. Curabitur euismod, enim non convallis auctor, sem nisi cursus sem, et fermentum mi ex iaculis nunc. Integer et libero orci. Nam vehicula, elit non tempus porta, neque erat semper sapien, at maximus risus tortor ac metus. In ac metus lectus. Vestibulum tincidunt vitae justo a porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi dapibus urna tortor, eu elementum metus luctus et. Phasellus varius gravida tempus. Etiam vulputate iaculis ultricies. Aliquam turpis erat, mollis nec diam ac, ornare euismod nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus quis malesuada arcu, nec viverra lorem. Maecenas eleifend, neque ut ultricies pellentesque, risus diam ultrices neque, ac dapibus lorem felis ut nulla. Nulla facilisi. Mauris at placerat purus. Donec a magna rhoncus, vehicula dui eget, accumsan est. Donec lacus ante, pharetra eu rhoncus non, auctor id turpis. Morbi tincidunt sed urna quis tempus. Nam feugiat fermentum congue. Nullam augue ligula, bibendum at arcu a, tristique gravida dui. Nulla erat nibh, tincidunt eu magna ac, dictum efficitur sem. Suspendisse eros erat, vehicula non finibus nec, tincidunt eget neque.
+          </CCardBody>
+        </CCard>
+      </CCol>
+    </CRow>
+    <CRow
+      gutters={true}
+      tag="div"
+    >
+      <CCol
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+            "xxl",
+          ]
+        }
+      >
+        <CCard
+          tag="div"
+        >
+          <CCardBody
+            style={
+              Object {
+                "margin": "auto",
+              }
+            }
+            tag="div"
+          >
+            <CButton
+              color="danger"
+              shape="pill"
+              style={
+                Object {
+                  "fontSize": 50,
+                  "height": 100,
+                  "width": 600,
+                }
+              }
+              tag="button"
+              type="submit"
+              variant="outline"
+            >
+              Apply for Trainer
+            </CButton>
+             
+          </CCardBody>
+        </CCard>
+      </CCol>
+    </CRow>
+  </React.Fragment>,
+]
+`;
+
+exports[`mounts ViewAppointment without crashing 1`] = `
+Array [
+  <ViewAppointmentView
+    data={Array []}
+    fields={
+      Array [
+        "S.No.",
+        "Name",
+        "email",
+        "phone",
+        "age",
+        "completeAddress",
+        "trainerPreferences",
+        "physioRequired",
+        "package",
+        "totalAmount",
+      ]
+    }
+  />,
+]
+`;
