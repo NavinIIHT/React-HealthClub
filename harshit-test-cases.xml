@@ -1,0 +1,418 @@
+<test-cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryFirstnameIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryFirstnameIsInvalid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryFirstnameIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryLastnameIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryLastnameIsInvalid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryLastnameIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryEmailIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryEmailIsInvalid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryEmailIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryMobileIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryMobileIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryAgeIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryAgeIsOnlyNumber</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryAgeMustBeGreaterThan18.</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryAgeMustBeLessThan60.</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryAgeIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryStreetNameIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryStreetNameIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryCountryIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryCountryIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryCityIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryCityIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryStateIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryStateIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryPincodeIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryPincodeIsOnlyNumber</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryPincodeHasOnly6Digit</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryPincodeIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryTrainerPreferencesIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryTrainerPreferencesIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryPhysiorequiredIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryPhysiorequiredIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryPackageIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryCreateappointmentBoundaryPackageIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryContactusviewBoundaryEmailIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryContactusviewBoundaryEmailIsInvalid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryContactusviewBoundaryEmailIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryContactusviewBoundaryFirstnameIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryContactusviewBoundaryFirstnameIsInvalid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryContactusviewBoundaryFirstnameIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryContactusviewBoundaryLastnameIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryContactusviewBoundaryLastnameIsInvalid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryContactusviewBoundaryLastnameIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryContactusviewBoundaryMessageIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryContactusviewBoundaryMessageIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryContactusviewBoundaryMobileIsRequired</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryContactusviewBoundaryMobileIsValid</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>businessCreateappointmentBusinessShouldSubmitForm</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>businessContactusBusinessShouldSubmitForm</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryLandingpageBoundaryShouldRenderLandingPage</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>boundaryLandingpageBoundaryShouldHaveAGreetingAsTheTitle</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Exception</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>exceptionViewappointmentExceptionShouldBeCheckFitnessApi</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+</test-cases>

@@ -233,24 +233,6 @@
       "package": "5 Sessions per week",
       "totalAmount": 3000,
       "id": 13
-    },
-    {
-      "firstName": "Ravi",
-      "lastName": "Verma",
-      "email": "ravi@gmail.com",
-      "mobile": "08767675645",
-      "age": "50",
-      "streetName": "Millanium Road",
-      "city": "Lucknow",
-      "state": "Uttar Pradesh",
-      "country": "India",
-      "pinCode": "226016",
-      "trainerPreferences": "Male",
-      "physioRequired": "No",
-      "weeks": "2",
-      "package": "5 Sessions per week",
-      "totalAmount": 3000,
-      "id": 14
     }
   ],
   "contactUs": [
@@ -349,14 +331,6 @@
       "mobile": "34434322213",
       "message": "df\nvf\nbg\n\nb",
       "id": 13
-    },
-    {
-      "firstName": "Harshit",
-      "lastName": "Kishor",
-      "email": "harshit+1000@mail.com",
-      "mobile": "34434322213",
-      "message": "df\nvf\nbg\n\nb",
-      "id": 14
     }
   ]
 }

@@ -1,6 +1,6 @@
 let fs = require('fs');
 let xmlBuilder = require("xmlbuilder");
-let createXMLFile = false;
+let createXMLFile = true;
 
 // custom-reporter.js
 class MyCustomReporter {
