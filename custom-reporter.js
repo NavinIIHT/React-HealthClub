@@ -76,11 +76,15 @@ const camelCase = function (str) {
 }
 
 const prepareXmlFile = function (xml, result) {
+    let testName = result.title.trim();
+    let fileName = testName.split(" ")[1];
+    let testNameToCamelCase = camelCase(testName);
     var testCaseType = result.title.trim().split(" ")[1];
     xml.ele('cases', { "xmlns:java": "http://java.sun.com", "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance", "xsi:type": "java:com.assessment.data.TestCase" })
         .ele('test-case-type', capitalize(testCaseType === 'business' ? "functional" : testCaseType === 'exception' ? "exception" : "boundary")).up()
         .ele('expected-ouput', true).up()
-        .ele('name', camelCase(result.fullName.trim())).up()
+        //.ele('name', camelCase(result.fullName.trim().split(" ")[1])).up()
+        .ele('name', testNameToCamelCase).up()
         .ele('weight', 2).up()
         .ele('mandatory', true).up()
         .ele('desc', "na")
